@@ -119,7 +119,7 @@ int main()
         case 6:
             cout << "\nEnter number: ";
             cin >> numFact;
-            if (num1 < 0)
+            if (numFact < 0)
             {
                 cout << "\nFactorial of a negative number is not valid";
             }
